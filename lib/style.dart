@@ -15,12 +15,16 @@ TextStyle headLine(context) {
         fontWeight: FontWeight.bold);
   } else if (width < 700) {
     return const TextStyle(
-      color: Colors.green,
-    );
+        letterSpacing: -0.7,
+        fontSize: 45,
+        color: whiteColor,
+        fontWeight: FontWeight.bold);
   } else {
     return const TextStyle(
-      color: Colors.black,
-    );
+        letterSpacing: -0.7,
+        fontSize: 50,
+        color: whiteColor,
+        fontWeight: FontWeight.bold);
   }
 }
 
