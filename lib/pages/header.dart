@@ -12,6 +12,7 @@ class Header extends StatelessWidget {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       if (constraints.maxWidth < 450) {
+        //Mobile View
         return Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
