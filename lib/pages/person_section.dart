@@ -12,7 +12,7 @@ class PersonSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
-      if (constraints.maxWidth < 450) {
+      if (constraints.maxWidth < 500) {
         return Center(
           child: Container(
             height: imageWidth * 1,
@@ -26,11 +26,11 @@ class PersonSection extends StatelessWidget {
             ),
           ),
         );
-      } else if (constraints.maxWidth < 750) {
+      } else if (constraints.maxWidth < 800) {
         return Center(
           child: Container(
-            height: imageWidth * 1,
-            width: MediaQuery.of(context).size.width * 0.70,
+            height: MediaQuery.of(context).size.width * 0.50,
+            width: MediaQuery.of(context).size.width * 0.45,
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('assets/images/person_small.png'),
@@ -43,8 +43,8 @@ class PersonSection extends StatelessWidget {
       } else {
         return Center(
           child: Container(
-            height: imageWidth * 1,
-            width: MediaQuery.of(context).size.width * 0.70,
+            height: MediaQuery.of(context).size.width * 0.50,
+            width: MediaQuery.of(context).size.width * 0.45,
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('assets/images/person_small.png'),

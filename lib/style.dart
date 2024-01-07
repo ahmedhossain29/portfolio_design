@@ -7,13 +7,13 @@ const appColor = Color(0xff15B572);
 TextStyle headLine(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(
         letterSpacing: -0.7,
         fontSize: 35,
         color: whiteColor,
         fontWeight: FontWeight.bold);
-  } else if (width < 700) {
+  } else if (width < 800) {
     return const TextStyle(
         letterSpacing: -0.7,
         fontSize: 45,
@@ -31,59 +31,71 @@ TextStyle headLine(context) {
 TextStyle headLine2(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(
         letterSpacing: -0.7,
         fontSize: 24,
         color: whiteColor,
         fontWeight: FontWeight.bold);
-  } else if (width < 700) {
+  } else if (width < 800) {
     return const TextStyle(
-      color: Colors.green,
-    );
+        letterSpacing: -0.7,
+        fontSize: 24,
+        color: whiteColor,
+        fontWeight: FontWeight.bold);
   } else {
     return const TextStyle(
-      color: Colors.black,
-    );
+        letterSpacing: -0.7,
+        fontSize: 24,
+        color: whiteColor,
+        fontWeight: FontWeight.bold);
   }
 }
 
 TextStyle subHeadLine(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(
         fontSize: 17,
         fontWeight: FontWeight.w800,
         letterSpacing: -0.5,
         color: appColor);
-  } else if (width < 700) {
+  } else if (width < 800) {
     return const TextStyle(
-      color: Colors.green,
-    );
+        fontSize: 17,
+        fontWeight: FontWeight.w800,
+        letterSpacing: -0.5,
+        color: appColor);
   } else {
     return const TextStyle(
-      color: Colors.black,
-    );
+        fontSize: 17,
+        fontWeight: FontWeight.w800,
+        letterSpacing: -0.5,
+        color: appColor);
   }
 }
 
 TextStyle subHeadLine2(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(
       fontSize: 20,
       fontWeight: FontWeight.w700,
       color: whiteColor,
     );
-  } else if (width < 700) {
+  } else if (width < 800) {
     return const TextStyle(
-      color: Colors.green,
+      fontSize: 20,
+      fontWeight: FontWeight.w700,
+      color: whiteColor,
     );
   } else {
     return const TextStyle(
-      color: Colors.black,
+      fontSize: 20,
+      fontWeight: FontWeight.w700,
+      color: whiteColor,
     );
   }
 }
@@ -91,32 +103,24 @@ TextStyle subHeadLine2(context) {
 TextStyle paragraphText(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(fontSize: 15, color: Colors.white70);
-  } else if (width < 700) {
-    return const TextStyle(
-      color: Colors.green,
-    );
+  } else if (width < 800) {
+    return const TextStyle(fontSize: 15, color: Colors.white70);
   } else {
-    return const TextStyle(
-      color: Colors.black,
-    );
+    return const TextStyle(fontSize: 15, color: Colors.white70);
   }
 }
 
 TextStyle paragraphText1(context) {
   var width = MediaQuery.of(context).size.width;
 
-  if (width < 450) {
+  if (width < 500) {
     return const TextStyle(fontSize: 13, color: Colors.white70);
-  } else if (width < 700) {
-    return const TextStyle(
-      color: Colors.green,
-    );
+  } else if (width < 800) {
+    return const TextStyle(fontSize: 13, color: Colors.white70);
   } else {
-    return const TextStyle(
-      color: Colors.black,
-    );
+    return const TextStyle(fontSize: 13, color: Colors.white70);
   }
 }
 
