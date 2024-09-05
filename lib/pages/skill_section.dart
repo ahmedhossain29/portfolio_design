@@ -38,7 +38,7 @@ class SkillSection extends StatelessWidget {
                     Container(
                       color: whiteColor,
                       height: 35,
-                      width: MediaQuery.of(context).size.width * 0.7,
+                      width: MediaQuery.of(context).size.width * 0.6,
                       child: const Padding(
                         padding: EdgeInsets.only(left: 10, top: 8),
                         child: Text(
@@ -63,7 +63,7 @@ class SkillSection extends StatelessWidget {
                     Container(
                       color: whiteColor,
                       height: 35,
-                      width: MediaQuery.of(context).size.width * 0.8,
+                      width: MediaQuery.of(context).size.width * 0.7,
                       child: const Padding(
                         padding: EdgeInsets.only(left: 10, top: 8),
                         child: Text(
@@ -138,7 +138,7 @@ class SkillSection extends StatelessWidget {
                     Container(
                       color: whiteColor,
                       height: 35,
-                      width: MediaQuery.of(context).size.width * 0.8,
+                      width: MediaQuery.of(context).size.width * 0.7,
                       child: const Padding(
                         padding: EdgeInsets.only(left: 10, top: 8),
                         child: Text(

@@ -30,7 +30,7 @@ class CvSection extends StatelessWidget {
               height: 10,
             ),
             Text(
-              "Flutter Developer, Step Media Ltd",
+              "Flutter Developer, ",
               style: paragraphText(context),
             ),
             const SizedBox(

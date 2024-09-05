@@ -23,6 +23,7 @@ class DesignAndDevelopSection extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+
                         Row(
                           children: [
                             Image.asset(
