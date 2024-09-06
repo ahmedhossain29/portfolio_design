@@ -49,10 +49,7 @@ class _HeaderState extends State<Header> {
                         value: '3',
                         child: Text('PROJECTS'),
                       ),
-                      const PopupMenuItem(
-                        value: '4',
-                        child: Text('BLOGS'),
-                      ),
+
                       PopupMenuItem(
                         value: '4',
                         child: Container(
@@ -73,7 +70,7 @@ class _HeaderState extends State<Header> {
                     ]),
           ],
         );
-      } else if (constraints.maxWidth < 800) {
+      } else if (constraints.maxWidth < 700) {
         return Padding(
           padding: const EdgeInsets.all(28.0),
           child: Row(
@@ -106,10 +103,7 @@ class _HeaderState extends State<Header> {
                           value: '3',
                           child: Text('PROJECTS'),
                         ),
-                        const PopupMenuItem(
-                          value: '4',
-                          child: Text('BLOGS'),
-                        ),
+
                         PopupMenuItem(
                           value: '4',
                           child: Container(
@@ -209,13 +203,7 @@ class _HeaderState extends State<Header> {
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: const Text(
-                      'BLOGS',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
+
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       backgroundColor: appColor, // Background color

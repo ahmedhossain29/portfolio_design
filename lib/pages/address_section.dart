@@ -25,8 +25,8 @@ class AddressSection extends StatelessWidget {
                           children: [
                             Image.asset(
                               "assets/images/map.png",
-                              height: 35,
-                              width: 35,
+                              height: 20,
+                              width: 25,
                             ),
                             const SizedBox(
                               width: 15,
@@ -41,7 +41,7 @@ class AddressSection extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          'Flutter is an open-source UI software Development kit created by Google.',
+                          'Mirpur-12, Dhaka,Bangladesh',
                           style: paragraphText1(context),
                         ),
                       ],
@@ -162,7 +162,7 @@ class AddressSection extends StatelessWidget {
             ),
           ],
         );
-      } else if (constraints.maxWidth < 800) {
+      } else  {
         return Padding(
           padding: const EdgeInsets.all(28.0),
           child: Column(
@@ -180,25 +180,19 @@ class AddressSection extends StatelessWidget {
                             children: [
                               Image.asset(
                                 "assets/images/map.png",
-                                height: 35,
-                                width: 35,
+                                height: 20,
+                                width: 20,
                               ),
                               const SizedBox(
                                 width: 15,
                               ),
-                              Text(
-                                'ADDRESS',
-                                style: subHeadLine2(context),
-                              ),
+                              Text("Mirpur-12, Dhaka,Bangladesh",style: TextStyle(
+                                color: Colors.white
+                              ),)
                             ],
                           ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
+
+                          
                         ],
                       ),
                     ),
@@ -213,25 +207,19 @@ class AddressSection extends StatelessWidget {
                             children: [
                               Image.asset(
                                 "assets/images/phone.png",
-                                height: 35,
-                                width: 35,
+                                height: 20,
+                                width: 20,
                               ),
                               const SizedBox(
                                 width: 15,
                               ),
                               Text(
                                 'PHONE',
-                                style: subHeadLine2(context),
+                                style: TextStyle(color: whiteColor),
                               ),
                             ],
                           ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
+
                         ],
                       ),
                     ),
@@ -254,24 +242,17 @@ class AddressSection extends StatelessWidget {
                             children: [
                               Image.asset(
                                 "assets/images/email.png",
-                                height: 35,
-                                width: 35,
+                                height: 20,
+                                width: 20,
                               ),
                               const SizedBox(
                                 width: 15,
                               ),
                               Text(
-                                'EMAIL',
-                                style: subHeadLine2(context),
+                                'hossainahmad76@gmail.com',
+                                style: TextStyle(color: whiteColor),
                               ),
                             ],
-                          ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
                           ),
                         ],
                       ),
@@ -287,181 +268,19 @@ class AddressSection extends StatelessWidget {
                             children: [
                               Image.asset(
                                 "assets/images/whatsapp.png",
-                                height: 35,
-                                width: 35,
+                                height: 20,
+                                width: 20,
                               ),
                               const SizedBox(
                                 width: 15,
                               ),
-                              Text(
-                                'WHATSAPP',
-                                style: subHeadLine2(context),
+                              const Text(
+                                '+8801614276129',
+                                style: TextStyle(color: whiteColor),
                               ),
                             ],
                           ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(
-                height: 45,
-              ),
-            ],
-          ),
-        );
-      } else {
-        return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 100),
-          child: Column(
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Image.asset(
-                                "assets/images/map.png",
-                                height: 35,
-                                width: 35,
-                              ),
-                              const SizedBox(
-                                width: 15,
-                              ),
-                              Text(
-                                'ADDRESS',
-                                style: subHeadLine2(context),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Image.asset(
-                                "assets/images/phone.png",
-                                height: 35,
-                                width: 35,
-                              ),
-                              const SizedBox(
-                                width: 15,
-                              ),
-                              Text(
-                                'PHONE',
-                                style: subHeadLine2(context),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(
-                height: 45,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Image.asset(
-                                "assets/images/email.png",
-                                height: 35,
-                                width: 35,
-                              ),
-                              const SizedBox(
-                                width: 15,
-                              ),
-                              Text(
-                                'EMAIL',
-                                style: subHeadLine2(context),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Image.asset(
-                                "assets/images/whatsapp.png",
-                                height: 35,
-                                width: 35,
-                              ),
-                              const SizedBox(
-                                width: 15,
-                              ),
-                              Text(
-                                'WHATSAPP',
-                                style: subHeadLine2(context),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(
-                            height: 5,
-                          ),
-                          Text(
-                            'Flutter is an open-source UI software Development kit created by Google.',
-                            style: paragraphText1(context),
-                          ),
+
                         ],
                       ),
                     ),
@@ -475,6 +294,163 @@ class AddressSection extends StatelessWidget {
           ),
         );
       }
+      // else {
+      //   return Padding(
+      //     padding: const EdgeInsets.symmetric(horizontal: 100),
+      //     child: Column(
+      //       children: [
+      //         Row(
+      //           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //           children: [
+      //             Expanded(
+      //               child: Padding(
+      //                 padding: const EdgeInsets.only(right: 10),
+      //                 child: Column(
+      //                   crossAxisAlignment: CrossAxisAlignment.start,
+      //                   children: [
+      //                     Row(
+      //                       children: [
+      //                         Image.asset(
+      //                           "assets/images/map.png",
+      //                           height: 35,
+      //                           width: 35,
+      //                         ),
+      //                         const SizedBox(
+      //                           width: 15,
+      //                         ),
+      //                         Text(
+      //                           'ADDRESS',
+      //                           style: subHeadLine2(context),
+      //                         ),
+      //                       ],
+      //                     ),
+      //                     const SizedBox(
+      //                       height: 5,
+      //                     ),
+      //                     Text(
+      //                       'Flutter is an open-source UI software Development kit created by Google.',
+      //                       style: paragraphText1(context),
+      //                     ),
+      //                   ],
+      //                 ),
+      //               ),
+      //             ),
+      //             Expanded(
+      //               child: Padding(
+      //                 padding: const EdgeInsets.only(left: 10),
+      //                 child: Column(
+      //                   crossAxisAlignment: CrossAxisAlignment.start,
+      //                   children: [
+      //                     Row(
+      //                       children: [
+      //                         Image.asset(
+      //                           "assets/images/phone.png",
+      //                           height: 35,
+      //                           width: 35,
+      //                         ),
+      //                         const SizedBox(
+      //                           width: 15,
+      //                         ),
+      //                         Text(
+      //                           'PHONE',
+      //                           style: subHeadLine2(context),
+      //                         ),
+      //                       ],
+      //                     ),
+      //                     const SizedBox(
+      //                       height: 5,
+      //                     ),
+      //                     Text(
+      //                       'Flutter is an open-source UI software Development kit created by Google.',
+      //                       style: paragraphText1(context),
+      //                     ),
+      //                   ],
+      //                 ),
+      //               ),
+      //             ),
+      //           ],
+      //         ),
+      //         const SizedBox(
+      //           height: 45,
+      //         ),
+      //         Row(
+      //           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //           children: [
+      //             Expanded(
+      //               child: Padding(
+      //                 padding: const EdgeInsets.only(right: 10),
+      //                 child: Column(
+      //                   crossAxisAlignment: CrossAxisAlignment.start,
+      //                   children: [
+      //                     Row(
+      //                       children: [
+      //                         Image.asset(
+      //                           "assets/images/email.png",
+      //                           height: 35,
+      //                           width: 35,
+      //                         ),
+      //                         const SizedBox(
+      //                           width: 15,
+      //                         ),
+      //                         Text(
+      //                           'EMAIL',
+      //                           style: subHeadLine2(context),
+      //                         ),
+      //                       ],
+      //                     ),
+      //                     const SizedBox(
+      //                       height: 5,
+      //                     ),
+      //                     Text(
+      //                       'Flutter is an open-source UI software Development kit created by Google.',
+      //                       style: paragraphText1(context),
+      //                     ),
+      //                   ],
+      //                 ),
+      //               ),
+      //             ),
+      //             Expanded(
+      //               child: Padding(
+      //                 padding: const EdgeInsets.only(left: 10),
+      //                 child: Column(
+      //                   crossAxisAlignment: CrossAxisAlignment.start,
+      //                   children: [
+      //                     Row(
+      //                       children: [
+      //                         Image.asset(
+      //                           "assets/images/whatsapp.png",
+      //                           height: 35,
+      //                           width: 35,
+      //                         ),
+      //                         const SizedBox(
+      //                           width: 15,
+      //                         ),
+      //                         Text(
+      //                           'WHATSAPP',
+      //                           style: subHeadLine2(context),
+      //                         ),
+      //                       ],
+      //                     ),
+      //                     const SizedBox(
+      //                       height: 5,
+      //                     ),
+      //                     Text(
+      //                       'Flutter is an open-source UI software Development kit created by Google.',
+      //                       style: paragraphText1(context),
+      //                     ),
+      //                   ],
+      //                 ),
+      //               ),
+      //             ),
+      //           ],
+      //         ),
+      //         const SizedBox(
+      //           height: 45,
+      //         ),
+      //       ],
+      //     ),
+      //   );
+      // }
     });
   }
 }

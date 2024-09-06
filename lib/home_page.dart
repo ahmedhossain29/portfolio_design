@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_design/pages/address_section.dart';
 import 'package:portfolio_design/pages/app_add_section.dart';
 import 'package:portfolio_design/pages/cv_section.dart';
 import 'package:portfolio_design/pages/design_develop_section.dart';
 import 'package:portfolio_design/pages/education_section.dart';
 import 'package:portfolio_design/pages/footer_section.dart';
 import 'package:portfolio_design/pages/header.dart';
-import 'package:portfolio_design/pages/person_section.dart';
-import 'package:portfolio_design/pages/skill_section.dart';
 import 'package:portfolio_design/pages/website_add_section.dart';
 import 'package:portfolio_design/style.dart';
 
@@ -44,6 +41,8 @@ class _HomePageState extends State<HomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const CvSection(),
+                    const EducationSection(),
+                    // const SkillSection(),
                     const DesignAndDevelopSection(),
                     const SizedBox(
                       height: 20,
@@ -56,10 +55,7 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(
                       height: 30,
                     ),
-                    const EducationSection(),
-                    PersonSection(imageWidth: imageWidth),
-                    const SkillSection(),
-                    const AddressSection(),
+
                     const FooterSection(),
                   ],
                 ),
