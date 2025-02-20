@@ -2,9 +2,9 @@ name: Flutter BUILD APK
 
 on:
   push:
-    branches: [master] # Trigger on push to the main branch
+    branches: [main] # Trigger on push to the main branch
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
